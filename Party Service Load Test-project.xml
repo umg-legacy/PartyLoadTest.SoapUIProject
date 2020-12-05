@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="bd1e6b07-2698-42a4-acfe-ea9d1c027ffd" activeEnvironment="Default" name="Party Service Load Testing" resourceRoot="" soapui-version="5.6.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="0884447a-6696-4b97-82c1-530882712233" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://party-qa.gr4o-nonprod.umusic.net" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://party-qa.gr4o-nonprod.umusic.net</con:endpoint></con:endpoints><con:resource name="Party-workspace" path="" id="b4456f60-e3e9-4839-9b3d-185a6537778a"><con:settings/><con:parameters/><con:method name="Party-workspace 1" id="d20bdad7-043f-4eaa-bf8e-458e6432e928" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>text/html</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200 201</con:status><con:params/><con:element xmlns:par="https://party-qa.gr4o-nonprod.umusic.net/party-workspace">par:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/problem+json; charset=utf-8</con:mediaType><con:status>401</con:status><con:params/><con:element xmlns:per="https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person">per:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>409</con:status><con:params/><con:element xmlns:per="https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person">per:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="GetParty" id="40cbea69-8707-4df6-b79d-94f2d46460b4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/100000001</con:endpoint><con:request/><con:originalUri>https://party-qa.gr4o-nonprod.umusic.net/party-workspace</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request><con:request name="CreateParty" id="664ef798-5b8f-4c7b-8a8a-f75bd8937235" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person</con:endpoint><con:request>{
+<con:soapui-project id="bd1e6b07-2698-42a4-acfe-ea9d1c027ffd" activeEnvironment="Default" name="Party Service Load Testing" resourceRoot="" soapui-version="5.6.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="0884447a-6696-4b97-82c1-530882712233" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://party-qa.gr4o-nonprod.umusic.net" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://party-qa.gr4o-nonprod.umusic.net</con:endpoint></con:endpoints><con:resource name="Party-workspace" path="" id="b4456f60-e3e9-4839-9b3d-185a6537778a"><con:settings/><con:parameters/><con:method name="PostMethod" id="d20bdad7-043f-4eaa-bf8e-458e6432e928" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>text/html</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200 201</con:status><con:params/><con:element xmlns:par="https://party-qa.gr4o-nonprod.umusic.net/party-workspace">par:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/problem+json; charset=utf-8</con:mediaType><con:status>401</con:status><con:params/><con:element xmlns:per="https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person">per:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>409 405</con:status><con:params/><con:element xmlns:per="https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person">per:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain</con:mediaType><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="CreateParty" id="664ef798-5b8f-4c7b-8a8a-f75bd8937235" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting><con:setting id="com.eviware.soapui.impl.support.AbstractHttpRequest@max-size">0</con:setting></con:settings><con:endpoint>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person</con:endpoint><con:request>{
 "distinguishingInformation":"",
 "externalIds":[{"type":"ISNI","value":"${=org.apache.commons.lang.RandomStringUtils.randomNumeric(10)}","originalSource":"PartyWorkspace"},{"type":"IPI","value":"${=org.apache.commons.lang.RandomStringUtils.randomNumeric(7)}","originalSource":"PartyWorkspace"}],
 "notes":"",
@@ -7,7 +7,197 @@
 [{"day":"13","month":"1","year":"1978","type":"DateOfBirth","originalSource":"PartyWorkspace"},
 {"day":"19","month":"2","year":"2020","type":"DateOfDeath","originalSource":"PartyWorkspace"}],
 "originalSource":"PartyWorkspace","type":"person","firstName":"${=org.apache.commons.lang.RandomStringUtils.randomAlphabetic(10)}","lastName":"${=org.apache.commons.lang.RandomStringUtils.randomAlphabetic(10)}","personNameType":"RealName","translations":[]
-}</con:request><con:originalUri>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource></con:interface><con:testSuite id="ec8c6bf1-6f1a-4427-b34c-dc8e45494c6d" name="TestSuite 1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="4496695e-1f97-4463-bc05-5d64adf58f06" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Party-workspace 1 - CreateParty" id="34846599-c2b8-4b1f-99f8-8b815dde0efb"><con:settings/><con:config service="https://party-qa.gr4o-nonprod.umusic.net" resourcePath="" methodName="Party-workspace 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Party-workspace 1 - CreateParty" id="664ef798-5b8f-4c7b-8a8a-f75bd8937235" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person</con:endpoint><con:request>{
+}</con:request><con:originalUri>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request><con:request name="AddExternalId" id="8e783308-b085-4995-8cf4-033dfeab9ab1" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://party-qa.gr4o-nonprod.umusic.net/party-api/v1/party/${Properties#PartyId}/externalId</con:endpoint><con:request>{"type":"ISNI","typeValid":true,"value":"${=org.apache.commons.lang.RandomStringUtils.randomNumeric(10)}","valueValid":true,"notesValid":true,"originalSource":"PartyWorkspace"}</con:request><con:originalUri>https://party-qa.gr4o-nonprod.umusic.net/party-api/v1/party/100001097/externalId</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method><con:method name="GetMethod" id="35a22151-6570-4bf6-ad9a-b5ac8955bb14" method="GET"><con:settings/><con:parameters/><con:request name="GetParty" id="51751fda-4dc7-4dac-b7b2-cd666967913b" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/${Properties#PartyId}</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="ec8c6bf1-6f1a-4427-b34c-dc8e45494c6d" name="TestSuite 1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="4496695e-1f97-4463-bc05-5d64adf58f06" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCaseSearchParty" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script - Read Party Ids" id="a453e495-6d5a-473a-991e-38871e93fdcb"><con:settings/><con:config><script>import jxl.*	
+import static com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.*
+import com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep
+import com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep
+import com.eviware.soapui.impl.wsdl.teststeps.JdbcRequestTestStep
+import com.eviware.soapui.impl.wsdl.teststeps.HttpTestRequestStep
+import com.eviware.soapui.support.XmlHolder
+import jxl.write.*	                                                                                      
+
+
+
+def myTestCase = context.testCase
+def counter,next,previous,size
+
+File excelFile = new File("D:\\Book1.xls")              
+Workbook wb = Workbook.getWorkbook(excelFile)                                                       
+Sheet sheet = wb.getSheet(0)                                                                                           
+size = sheet.getRows().toInteger()
+
+
+propTestStep = myTestCase.getTestStepByName("Properties") 
+propTestStep.setPropertyValue("Total", size.toString())
+
+counter = propTestStep.getPropertyValue("Count").toString() 
+counter = counter.toInteger()
+next = (counter > size-2? 0: counter+1)
+
+Cell f1 = sheet.getCell(0,counter) 
+
+wb.close() 
+
+
+field1 = f1.getContents()
+propTestStep.setPropertyValue("PartyId", field1)
+propTestStep.setPropertyValue("Count", next.toString())
+next++ 
+propTestStep.setPropertyValue("Next", next.toString())
+
+//Decide if the test has to be run again or not
+
+if (counter == size-1)
+
+{
+
+propTestStep.setPropertyValue("StopVal", "T")
+
+log.info "Setting the StopVal property now..."
+
+}
+
+else if (counter==0)
+
+{
+
+def runner = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner(testRunner.testCase, null)
+
+propTestStep.setPropertyValue("StopVal", "F")
+
+}
+
+else
+
+{
+
+propTestStep.setPropertyValue("StopVal", "F")
+
+}									                
+
+           
+	
+//	testRunner.testCase.setPropertyValue("PartyId",value1)            
+	          
+log.info("partyId =" +field1)
+
+
+def tCase = testRunner.testCase.testSuite.testCases["TestCaseSearchParty"]
+def step = tCase.testSteps["GetParty"]
+def result = step.run(testRunner, context)
+def isStepRequestType = { model -> [WsdlTestRequestStep, RestTestRequestStep, JdbcRequestTestStep, HttpTestRequestStep].any { model.class == it} } 
+switch(result.status)
+{
+	case FAILED:
+		log.error "${step.name} is executed, but failed"
+		break
+	case [OK, UNKNOWN] :
+		log.info "${step.name} execution is finished successfully"
+		if (isStepRequestType(step)) {
+			def response = result.responseContent
+			assert response, 'Response is null or empty'
+	                log.debug response			
+		}		
+		break 
+	default:
+		log.info result.status
+		break
+}
+
+	                                                                      
+
+</script></con:config></con:testStep><con:testStep type="restrequest" name="GetParty" id="f71e074f-e58f-441a-a591-231456a8af29"><con:settings/><con:config service="https://party-qa.gr4o-nonprod.umusic.net" resourcePath="" methodName="GetMethod" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetMethod - GetParty" id="51751fda-4dc7-4dac-b7b2-cd666967913b" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/${Properties#PartyId}</con:endpoint><con:request/><con:originalUri>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/100001568</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Properties" id="104ef582-49a4-4144-b8fb-61d7f2a8a297"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>PartyId</con:name><con:value>100001569</con:value></con:property><con:property><con:name>Total</con:name><con:value>83</con:value></con:property><con:property><con:name>Count</con:name><con:value>3</con:value></con:property><con:property><con:name>Next</con:name><con:value>4</con:value></con:property><con:property><con:name>StopVal</con:name><con:value>F</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Loop" id="ff31d1ac-7cdd-480f-9d0d-7b11fd27b896"><con:settings/><con:config><script>def myTestCase = context.testCase
+def runner
+
+propTestStep = myTestCase.getTestStepByName("Properties") // get the Property TestStep
+
+endLoop = propTestStep.getPropertyValue("StopVal").toString()
+
+if (endLoop.toString() == "T" || endLoop.toString()=="True" || endLoop.toString()=="true")
+
+{
+
+log.info ("Exit Groovy Data Source Looper")
+
+assert true
+
+}
+
+else
+
+{
+
+testRunner.gotoStepByName("Groovy Script - Read Party Ids") //setStartStep
+
+}</script></con:config></con:testStep><con:loadTest id="6d9ac12b-fed0-498a-b8ff-e7fda8dae98e" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>1</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties><con:property><con:name>rowIncrementer</con:name><con:value>4</con:value></con:property></con:properties></con:testCase><con:testCase id="708cae01-6e5c-42c0-88f5-18b0591c5b06" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCaseCreateParty" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script - Write Party Ids" id="c84f0ebd-db25-4971-9f94-dba7d61ac0d1"><con:settings/><con:config><script>import jxl.*;
+import jxl.write.*;
+import java.io.*;
+import groovy.json.JsonSlurper
+
+import static com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.*
+import com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep
+import com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep
+import com.eviware.soapui.impl.wsdl.teststeps.JdbcRequestTestStep
+import com.eviware.soapui.impl.wsdl.teststeps.HttpTestRequestStep
+
+ 
+
+
+
+def tCase = testRunner.testCase.testSuite.testCases["TestCaseCreateParty"]
+
+def step = tCase.testSteps["CreateParty"]
+
+def result = step.run(testRunner, context)
+def isStepRequestType = { model -> [WsdlTestRequestStep, RestTestRequestStep, JdbcRequestTestStep, HttpTestRequestStep].any { model.class == it} } 
+switch(result.status)
+{
+	case FAILED:
+		log.error "${step.name} is executed, but failed"
+		break
+	case [OK, UNKNOWN] :
+		log.info "${step.name} execution is finished successfully"
+		if (isStepRequestType(step)) {
+			def response = result.responseContent
+			assert response, 'Response is null or empty'
+	                log.debug response
+			//Add other assertions on response as needed	- verification part
+		}		
+		break //last statement in case
+	default:
+		log.info result.status
+		break
+}
+
+
+
+def responseText = result.responseContent
+
+JsonSlurper jsonResponseContent = new JsonSlurper()
+def jsonResponseObject = jsonResponseContent.parseText(responseText)
+
+log.info jsonResponseObject.id
+
+File excelFile = new File("D:\\Book1.xls")         
+             
+Workbook existingWorkbook = Workbook.getWorkbook(excelFile)
+WritableWorkbook workbookCopy = Workbook.createWorkbook(excelFile, existingWorkbook)
+
+try
+{
+WritableSheet sheetToEdit = workbookCopy.getSheet(0);
+WritableCell cell;   
+ Label l = new Label(0, sheetToEdit.getRows(), jsonResponseObject.id.toString());
+ cell = (WritableCell) l;
+ sheetToEdit.addCell(cell);  
+}
+catch (Exception e) {log.info(e)}
+finally
+{
+ workbookCopy.write();
+ workbookCopy.close();
+ existingWorkbook.close();
+ }</script></con:config></con:testStep><con:testStep type="restrequest" name="CreateParty" id="4f995fe6-2204-45e8-9dbe-46f08ed12e4b"><con:settings/><con:config service="https://party-qa.gr4o-nonprod.umusic.net" resourcePath="" methodName="PostMethod" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="CreateParty" id="664ef798-5b8f-4c7b-8a8a-f75bd8937235" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting><con:setting id="com.eviware.soapui.impl.support.AbstractHttpRequest@max-size">0</con:setting></con:settings><con:endpoint>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person</con:endpoint><con:request>{
 "distinguishingInformation":"",
 "externalIds":[{"type":"ISNI","value":"${=org.apache.commons.lang.RandomStringUtils.randomNumeric(10)}","originalSource":"PartyWorkspace"},{"type":"IPI","value":"${=org.apache.commons.lang.RandomStringUtils.randomNumeric(7)}","originalSource":"PartyWorkspace"}],
 "notes":"",
@@ -15,4 +205,126 @@
 [{"day":"13","month":"1","year":"1978","type":"DateOfBirth","originalSource":"PartyWorkspace"},
 {"day":"19","month":"2","year":"2020","type":"DateOfDeath","originalSource":"PartyWorkspace"}],
 "originalSource":"PartyWorkspace","type":"person","firstName":"${=org.apache.commons.lang.RandomStringUtils.randomAlphabetic(10)}","lastName":"${=org.apache.commons.lang.RandomStringUtils.randomAlphabetic(10)}","personNameType":"RealName","translations":[]
-}</con:request><con:originalUri>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Party-workspace 1 - GetParty" id="d3df6ae7-254f-4119-ae48-53074c35d034"><con:settings/><con:config service="https://party-qa.gr4o-nonprod.umusic.net" resourcePath="" methodName="Party-workspace 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Party-workspace 1 - GetParty" id="40cbea69-8707-4df6-b79d-94f2d46460b4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/100000001</con:endpoint><con:request/><con:originalUri>https://party-qa.gr4o-nonprod.umusic.net/party-workspace</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:loadTest id="6d9ac12b-fed0-498a-b8ff-e7fda8dae98e" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>5</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer><con:oAuth2Profile><con:name>Profile 1</con:name><con:clientID>0oaui4l0sjNBsiHQj0h7</con:clientID><con:clientSecret>ZD9latIMH11z1PLjyLQfxx_d9N1C74npCJf854si</con:clientSecret><con:authorizationURI>https://umusic-dev.oktapreview.com//oauth2/ausne49kx1HIUS6iz0h7/v1/token</con:authorizationURI><con:accessTokenURI>https://umusic-dev.oktapreview.com//oauth2/ausne49kx1HIUS6iz0h7/v1/token</con:accessTokenURI><con:redirectURI>https://umusic-dev.oktapreview.com//oauth2/ausne49kx1HIUS6iz0h7/v1/token</con:redirectURI><con:accessToken>eyJraWQiOiJUdUd1UjdjemNqRDE1aGpZMF8xOG1WMHkxZUU3RzZNckhhZnlnZEtYMDNNIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULktZQzBOQ3g4WjkzcmhaSGVtS05wYlU1TDhGZ0U5VVNSZFVuY0VQdWxTclUiLCJpc3MiOiJodHRwczovL3VtdXNpYy1kZXYub2t0YXByZXZpZXcuY29tL29hdXRoMi9hdXNuZTQ5a3gxSElVUzZpejBoNyIsImF1ZCI6InBhcnR5LXNlcnZpY2UiLCJpYXQiOjE2MDY5MTEwMzIsImV4cCI6MTYwNjkxNDYzMiwiY2lkIjoiMG9hdWk0bDBzak5Cc2lIUWowaDciLCJzY3AiOlsicGFydHkiXSwic3ViIjoiMG9hdWk0bDBzak5Cc2lIUWowaDcifQ.jli6zFuBCnrLudrszN5BVelvj8nggA0_78Mw-IEbvtVqYCO2eTDvvi9IEho77R7JoJvKdnDoHB9mHnLzfZvMSWTShEv6SPJWOc_Pe4D4fF1vHXdGSiYMMf10IRf9_jjqLyD9L9N07_IjNmesPON5NZo9Kc9UO4NhX2zHvwQeRec6I_IGX35hHTtSABUfgpg1G3LAvI4wpeSY-zCZaGMxJ5QqCKfGBEbp-dipyL8TpdnNqcwfwJCwlqw7WSBFb8cz4Z0nRjSPcnznUARQ1SIuvp1UmotvfsswCdx-PzgZ6SYwviaHioX1uQLuZuPQqIru0TEPPOCFkbpUJHz8NObUCA</con:accessToken><con:accessTokenPosition>HEADER</con:accessTokenPosition><con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow><con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod><con:scope>party</con:scope><con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus><con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus></con:oAuth2Profile></con:oAuth2ProfileContainer><con:oAuth1ProfileContainer/></con:soapui-project>
+}</con:request><con:originalUri>https://party-qa1.gr4o-nonprod.umusic.net/party-api/v1/party/person</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:loadTest id="97359870-a2ee-4cfe-a985-f4e580d003e4" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>1</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type><con:config><testDelay>1000</testDelay><randomFactor>0.5</randomFactor></con:config></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:testCase id="d7b6059d-a2cf-420a-bc0e-d6de7b1e98f5" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCaseAddExternalId" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script - Read Party Ids" id="a8dbf08d-5644-41bd-a4a5-aa3e83b52069"><con:settings/><con:config><script>import jxl.*	
+import static com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.*
+import com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep
+import com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep
+import com.eviware.soapui.impl.wsdl.teststeps.JdbcRequestTestStep
+import com.eviware.soapui.impl.wsdl.teststeps.HttpTestRequestStep
+import com.eviware.soapui.support.XmlHolder
+import jxl.write.*	                                                                                      
+
+
+
+def myTestCase = context.testCase
+def counter,next,previous,size
+
+File excelFile = new File("D:\\Book1.xls")              
+Workbook wb = Workbook.getWorkbook(excelFile)                                                       
+Sheet sheet = wb.getSheet(0)                                                                                           
+size = sheet.getRows().toInteger()
+
+
+propTestStep = myTestCase.getTestStepByName("Properties") 
+propTestStep.setPropertyValue("Total", size.toString())
+
+counter = propTestStep.getPropertyValue("Count").toString() 
+counter = counter.toInteger()
+next = (counter > size-2? 0: counter+1)
+
+Cell f1 = sheet.getCell(0,counter) 
+
+wb.close() 
+
+
+field1 = f1.getContents()
+propTestStep.setPropertyValue("PartyId", field1)
+propTestStep.setPropertyValue("Count", next.toString())
+next++ 
+propTestStep.setPropertyValue("Next", next.toString())
+
+//Decide if the test has to be run again or not
+
+if (counter == size-1)
+
+{
+
+propTestStep.setPropertyValue("StopVal", "T")
+
+log.info "Setting the StopVal property now..."
+
+}
+
+else if (counter==0)
+
+{
+
+def runner = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner(testRunner.testCase, null)
+
+propTestStep.setPropertyValue("StopVal", "F")
+
+}
+
+else
+
+{
+
+propTestStep.setPropertyValue("StopVal", "F")
+
+}									                
+
+           
+	
+//	testRunner.testCase.setPropertyValue("PartyId",value1)            
+	          
+log.info("partyId =" +field1)
+
+
+def tCase = testRunner.testCase.testSuite.testCases["TestCaseAddExternalId"]
+def step = tCase.testSteps["AddExternalId"]
+def result = step.run(testRunner, context)
+def isStepRequestType = { model -> [WsdlTestRequestStep, RestTestRequestStep, JdbcRequestTestStep, HttpTestRequestStep].any { model.class == it} } 
+switch(result.status)
+{
+	case FAILED:
+		log.error "${step.name} is executed, but failed"
+		break
+	case [OK, UNKNOWN] :
+		log.info "${step.name} execution is finished successfully"
+		if (isStepRequestType(step)) {
+			def response = result.responseContent
+			assert response, 'Response is null or empty'
+	                log.debug response			
+		}		
+		break 
+	default:
+		log.info result.status
+		break
+}
+
+	                                                                      
+
+</script></con:config></con:testStep><con:testStep type="restrequest" name="AddExternalId" id="46b56963-b0a9-47da-8e25-b371dcaafa18"><con:settings/><con:config service="https://party-qa.gr4o-nonprod.umusic.net" resourcePath="" methodName="PostMethod" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="PostMethod - AddExternalId" id="8e783308-b085-4995-8cf4-033dfeab9ab1" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://party-qa.gr4o-nonprod.umusic.net/party-api/v1/party/100001097/externalId</con:endpoint><con:request>{"type":"ISNI","typeValid":true,"value":"${=org.apache.commons.lang.RandomStringUtils.randomNumeric(10)}","valueValid":true,"notesValid":true,"originalSource":"PartyWorkspace"}</con:request><con:originalUri>https://party-qa.gr4o-nonprod.umusic.net/party-api/v1/party/100001097/externalId</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Properties" id="cab89f84-405b-475f-93f4-67742a38283c"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>PartyId</con:name><con:value>100001571</con:value></con:property><con:property><con:name>Total</con:name><con:value>84</con:value></con:property><con:property><con:name>Count</con:name><con:value>5</con:value></con:property><con:property><con:name>Next</con:name><con:value>6</con:value></con:property><con:property><con:name>StopVal</con:name><con:value>F</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Loop" id="7ba639ce-b353-4e9a-a3b4-e67f82718b18"><con:settings/><con:config><script>def myTestCase = context.testCase
+def runner
+
+propTestStep = myTestCase.getTestStepByName("Properties") // get the Property TestStep
+
+endLoop = propTestStep.getPropertyValue("StopVal").toString()
+
+if (endLoop.toString() == "T" || endLoop.toString()=="True" || endLoop.toString()=="true")
+
+{
+
+log.info ("Exit Groovy Data Source Looper")
+
+assert true
+
+}
+
+else
+
+{
+
+testRunner.gotoStepByName("Groovy Script - Read Party Ids") //setStartStep
+
+}</script></con:config></con:testStep><con:loadTest id="73069416-2069-483b-9052-e376ac455376" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>5</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer><con:oAuth2Profile><con:name>Profile 1</con:name><con:clientID>0oaui4l0sjNBsiHQj0h7</con:clientID><con:clientSecret>ZD9latIMH11z1PLjyLQfxx_d9N1C74npCJf854si</con:clientSecret><con:authorizationURI>https://umusic-dev.oktapreview.com//oauth2/ausne49kx1HIUS6iz0h7/v1/token</con:authorizationURI><con:accessTokenURI>https://umusic-dev.oktapreview.com//oauth2/ausne49kx1HIUS6iz0h7/v1/token</con:accessTokenURI><con:redirectURI>https://umusic-dev.oktapreview.com//oauth2/ausne49kx1HIUS6iz0h7/v1/token</con:redirectURI><con:accessToken>eyJraWQiOiJUdUd1UjdjemNqRDE1aGpZMF8xOG1WMHkxZUU3RzZNckhhZnlnZEtYMDNNIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULnk5OWRsNWNSbzdzNlV0c0tHbXdpUHRCX0dTNlByQTRNbTdPVkgxZHFQUEUiLCJpc3MiOiJodHRwczovL3VtdXNpYy1kZXYub2t0YXByZXZpZXcuY29tL29hdXRoMi9hdXNuZTQ5a3gxSElVUzZpejBoNyIsImF1ZCI6InBhcnR5LXNlcnZpY2UiLCJpYXQiOjE2MDcxNjkxOTEsImV4cCI6MTYwNzE3Mjc5MSwiY2lkIjoiMG9hdWk0bDBzak5Cc2lIUWowaDciLCJzY3AiOlsicGFydHkiXSwic3ViIjoiMG9hdWk0bDBzak5Cc2lIUWowaDcifQ.fwuD2gi-vpVY6q-YDa4HHQsLPC8vWSryc6V-hfmXwKb2VU-AU8LBggI-IfOffjEYdzT0fa653QHbmQiMe3SLIkOqdGMnGYA8D8zdqSrWPNOLAjbZbJRgNfknrPVSblUqBT_NNyENyEWpKCLAypkspBTE-1BpdvjR2bFyFRRVPyk8cbNoKOZktf43z203yGetbYgiRgy0O6jzXKUycNOqQSa67r0PRC2EBAGxdJzaZmr2bycLtN7eXsp8DZwJmBqLBSEh1tRinMMgQTHiZcgpSgqFy1LR3h32TsXX2snn9rDRU18GDJ6TkVuR4knKEuf4RKGVMzu3_BmLuz6fOhkm_A</con:accessToken><con:accessTokenPosition>HEADER</con:accessTokenPosition><con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow><con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod><con:scope>party</con:scope><con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus><con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus></con:oAuth2Profile></con:oAuth2ProfileContainer><con:oAuth1ProfileContainer/></con:soapui-project>
